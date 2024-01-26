@@ -1,0 +1,6 @@
+com/teste/integracao/inttest/service/AddressService.class
+com/teste/integracao/inttest/boundarie/AddressBoundary.class
+com/teste/integracao/inttest/controller/AddressController.class
+com/teste/integracao/inttest/config/Bean.class
+com/teste/integracao/inttest/domain/Address.class
+com/teste/integracao/inttest/IntTestApplication.class
