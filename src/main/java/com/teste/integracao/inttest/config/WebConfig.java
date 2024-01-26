@@ -1,4 +1,4 @@
-package com.teste.integracao.inttest.teste;
+package com.teste.integracao.inttest.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

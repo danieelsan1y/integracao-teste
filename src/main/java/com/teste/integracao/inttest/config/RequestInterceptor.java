@@ -1,15 +1,12 @@
-package com.teste.integracao.inttest.teste;
+package com.teste.integracao.inttest.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
-
-import static org.apache.commons.lang3.StringUtils.EMPTY;
 
 @Component
 public class RequestInterceptor implements HandlerInterceptor {
