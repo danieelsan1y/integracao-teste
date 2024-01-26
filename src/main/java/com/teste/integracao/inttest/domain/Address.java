@@ -7,11 +7,17 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.UUID;
+
+import static java.util.UUID.randomUUID;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class Address {
+public class Address implements DomainEntity {
+
+    private final String id = randomUUID().toString();
 
     @JsonProperty("cep")
     private String zipCode;
